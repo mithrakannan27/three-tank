@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tanks{
+    display: flex;
+    gap: 150px;
+    margin-top: 100px;
+    margin-left: 170px;
+}
+#tanka{
+    background-color:white;
+    height: 400px;
+    width: 250px;
+    border: solid black 3px;
+    border-top: white;
+}
+#tankb{
+    background-color:white;
+    height: 400px;
+    width: 250px;
+    border: solid black 3px;
+    border-top: white;
+}
+#tankc{
+    background-color:white;
+    height: 400px;
+    width: 250px;
+    border: solid black 3px;
+    border-top: white;
+}
+#red{
+    background-color: red;
+    height: 350px;
+    width: 249px;
+    position: absolute;
+    top: 150px;
+    left: 173px;
+}
+#green{
+    background-color: rgb(7, 226, 7);
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    top: 150px;
+    left: 577.5px; 
+}
+#blue{
+    background-color: blue;
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    top: 150px;
+    left: 982px; 
+}
+.m{
+    background-color: rgb(152, 7, 7);
+    height: 20px;
+    width: 100px;
+    position: relative;
+    left: 255px;
+    bottom: 20px;
+}
+.n{
+    background-color: rgb(152, 7, 7);
+    height: 60px;
+    width: 20px;
+    position: relative;
+    left: 335px;
+    bottom: 55px;
+}
+#redtank{
+    width: 40px;
+    height: 15px;
+    background-color: red;
+    position: relative;
+    left: 325px;
+    bottom: 130px;
+}
+#greentank{
+    width: 40px;
+    height: 15px;
+    background-color: green;
+    position: relative;
+    left: 325px;
+    bottom: 130px;
+}
+#bluetank{
+    width: 40px;
+    height: 15px;
+    background-color:blue;
+    position: relative;
+    left: 325px;
+    bottom: 130px;
+}
+#bottom{
+    height: 150px;
+    width: 1300px;
+    border: solid black 3px;
+    position: absolute;
+    left: 90px;
+    top: 575px;
+    border-top: white;
+}
+#flowred{
+    height:200px ;
+    width: 10px;
+    background-color: red;
+    position:relative;
+    bottom: 74px;
+    left: 340px;
+}
+#flowgreen{
+    height:200px ;
+    width: 10px;
+    background-color: green;
+    position:relative;
+    bottom: 74px;
+    left: 340px;
+}
+#flowblue{
+    height:200px ;
+    width: 10px;
+    background-color: blue;
+    position:relative;
+    bottom: 74px;
+    left: 340px;
+}
+#water{
+    background-color: skyblue;
+    width:1300px ;
+    position: absolute;
+    left: 93px;
+    top: 575px;
+}
